@@ -6,10 +6,14 @@ public class Authur {
         this.nameAuthur= nameAuthur;
         this.surnameAuthur=surnameAuthur;
     }
+
     public String getNameAuthur() {
         return this.nameAuthur;
     }
     public String getSurnameAuthur() {
         return this.surnameAuthur;
+    }
+    public String toString () {
+        return this.nameAuthur + this.surnameAuthur;
     }
 }
